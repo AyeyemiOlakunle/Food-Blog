@@ -1,0 +1,61 @@
+
+header{
+    background-color: rgb(241, 223, 223);
+    height: 40px;
+}
+
+         #dynamic-list img {
+            width: 40%; 
+            height: auto; 
+            display: block; 
+            margin: 30px auto 10px auto; 
+            border-radius: 80px; 
+        }
+
+        input[type="search"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 50px;
+}      
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.menu{
+    margin-left: 490px;
+}
+
+.navigation button a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation button{
+    background-color: black;
+    width: 90px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.recipes{
+    display: flex;
+    gap: 15px;
+}
+
+.recipe{
+    padding: 15px;
+    border: 0.8px solid black;
+    width: 300px;
+    text-decoration: none;
+    color: black;
+
+}

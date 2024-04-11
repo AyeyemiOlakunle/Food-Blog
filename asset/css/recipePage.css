@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background-color: rgb(241, 223, 223);
+    height: 40px;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    height: 30px;
+}
+
+.menu{
+    margin-left: 490px;
+}
+
+.navigation button a{
+    text-decoration: none;
+    color: white;
+}
+
+.navigation button{
+    background-color: black;
+    width: 90px;
+    height: 20px;
+    margin-top: 10px;
+    border-radius: 8px;
+}
+
+.recipeList{
+    margin-left: 120px;
+    /* background-color: red; */
+    margin-top: 80px;
+    display: flex;
+    flex-direction: column;
+}
+
+.recipeList img{
+    height: 580px;
+    width: 700px;
+    border-radius: 14px;
+}
+
+.group{
+    background-color: rgb(238, 222, 222);
+    width: 470px;
+    height: 260px;
+    border: 2px black solid;
+    margin-left: 100px;
+    margin-top: -140px;
+    border-radius: 20px;
+
+
+}
+
+.group p{
+    margin-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+
+.group button{
+    margin-left: 150px;
+    background-color: black;
+    width: 120px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.group button a{
+    color: white;
+    text-decoration: none;
+    
+}
+
+
+h3 {
+    margin-bottom: 10px;
+    font-size: 24px;
+    color: #333;
+}
+
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 20px;
+    display: flex; 
+    align-items: center; 
+}
+
+
+.recipeList img {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 10px !important;
+    margin-right: 20px;
+}
+
+input[type="search"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 50px;
+}
+
+
+.food-name {
+    font-weight: bold;
+    font-size: 18px;
+    color: #333;
+}
+
+
+.ingredient {
+    font-style: italic;
+    color: #777;
+    margin-left: 10px; 
+}
+
+
+footer{
+    
+    background-color: rgb(10, 10, 10);
+    height: 40px;
+    margin-top: 15px;
+}

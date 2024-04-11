@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    /* background-color: rgb(247, 242, 242); */
+    background-image: url(../img/iresi.jpeg);
+    
+}
+
+.success{
+    background-color: white;
+    width: 600px;
+    height: 350px;
+    border: 2px solid;
+    border-radius: 25px;
+    margin-left: 450px;
+    margin-top: 150px;
+}
+
+.success h1{
+    color: rgb(40, 71, 71);
+    margin-top: 70px;
+}
+
+.success p{
+    color: rgb(40, 71, 71);
+    margin-top: 70px;
+    margin-left: 180px;
+}
+
+button{
+    background-color: aqua;
+    width: 100px;
+    border-radius: 7px;
+    margin-left: 250px;
+    margin-top: 30px;
+    height: 40px;
+
+}
+
+button a {
+    text-decoration: none;
+
+}

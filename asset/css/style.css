@@ -1,0 +1,347 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(247, 242, 242);
+    
+}
+
+
+.container {
+    /* background-color: #A09393; */
+    display: flex;
+    height: 700px;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+.container .wrapper {
+    
+    width: 830px;
+    height: 650px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.6);
+    overflow: hidden;
+    border-radius: 0 0 40px 0; 
+}
+
+.container .wrapper-holder {
+    display: grid;
+    grid-template-columns: repeat(5, 100%);
+    height: 100%;
+    animation: slider 30s ease-in-out infinite alternate;
+}
+
+.slider-img {
+    background-size: cover;
+    background-position: center;
+    height: 100%; 
+}
+
+/* .name{
+    color: aqua;
+    margin-left: 15px;
+}
+
+.welcome_note{
+    color: rgb(253, 246, 246);
+    margin-top: 420px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: x-large;
+} */
+
+
+#slider-img1 {
+    
+    background-image: url('../img/jollof2.jpg');
+    
+    background-position: center;
+    background-size: cover;
+}
+
+#slider-img1 h1{
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+#slider-img1 p{
+    color: rgb(253, 246, 246);
+    margin-top: 420px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#slider-img2 {
+    background-image: url('../img/jollof3.jpg');
+    background-position: center;
+    background-size: cover;
+
+}
+#slider-img2 h1{
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+#slider-img2 p{
+    color: rgb(31, 0, 71);
+    margin-top: 420px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#slider-img3 {
+    background-image: url('../img/pyam.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slider-img3 h1{
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+#slider-img3 p{
+    color: rgb(253, 246, 246);
+    margin-top: 420px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#slider-img4 {
+    background-image: url('../img/rice2.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slider-img4 h1{
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+#slider-img4 p{
+    color: rgb(253, 246, 246);
+    margin-top: 420px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+#slider-img5 {
+    background-image: url('../img/okro-soup.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+#slider-img5 h1{
+    color: rgb(0, 0, 0);
+    margin: 15px;
+}
+
+#slider-img5 p{
+    color: rgb(253, 246, 246);
+    margin-top: 420px;
+    margin-left: 15px;
+    font-weight: 900;
+    font-size: x-large;
+}
+
+.container .button-holder .button{
+    background-color: white;
+    width: 15px;
+    height: 15px;
+    border-radius: 15px;
+    display: inline-block;
+    margin: .3rem;
+}
+
+.container .button-holder{
+    position: absolute;
+    left: 18%;
+    bottom: 20%
+
+}
+
+.button:hover{
+    box-shadow: 0px 0px 7px 4px rgba(0, 0, 0, 0.6);
+}
+
+/* @keyframes slider{
+   0%{transform: translateX(0%);}
+   10%{transform: translateX(-100%);}
+   20%{transform: translateX(-100%);}
+   30%{transform: translateX(-200%);}
+   40%{transform: translateX(-200%);}
+   50%{transform: translateX(-200%);}
+   60%{transform: translateX(-300%);}
+   70%{transform: translateX(-300%);}
+   80%{transform: translateX(-300%);}
+   90%{transform: translateX(0%);}
+   1000%{transform: translateX(0%);}
+} */
+
+@keyframes slider {
+    0%, 20% {transform: translateX(0%);} 
+    25%, 45% {transform: translateX(-100%);}
+    50%, 70% {transform: translateX(-200%);}
+    75%, 95% {transform: translateX(-300%);} 
+    100%{transform: translateX(-400%);}
+    
+ }
+ 
+
+.con{
+    width: 350px;
+    height: 400px;
+    background-color: rgb(15, 14, 14);
+    border-radius: 0 20px 20px 0;
+    margin-top: 90px;
+    box-shadow: 10px 10px 10px rgba(236, 232, 232, 0.6);
+}
+
+.con p{
+    margin-top: 10px;
+    padding-top: 100px;
+    color: white;
+    margin-left: 15px;
+    letter-spacing: 2px;
+    
+}
+.navigation{
+    background-color: rgb(241, 223, 223);
+    height: 40px;
+    width: 800px;
+    display: flex;
+    justify-content: space-around;
+    /* position: fixed; */
+    
+}
+
+.navigation button{
+    background-color: #141414;
+    width: 60px;
+    height: 20px;
+    margin-top: 9px;
+    outline: none;
+    border-radius: 5px;
+}
+
+.navigation button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 9px;
+    cursor: pointer;
+    
+}
+
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin: 20px;
+    height: 90px;
+    
+}
+.con button{
+    background-color: white;
+    cursor: pointer;
+    width: 120px;
+    height: 30px;
+    margin-left: 100px;
+    border-radius: 5px;
+    margin-top: 40px;
+    font-weight: bold;
+}
+
+.container2{
+    display: flex;
+    margin-top: 35px;
+    justify-content: space-around;
+}
+
+.coms{
+    height: 350px;
+    width: 280px;
+    background-color: #A09393;
+    border-radius: 8px;
+}
+
+
+
+.container3{
+    display: flex;
+    margin-top: 35px;
+    margin-left: 40px;
+}
+
+.container3 img{
+    width: 400px;
+    height: 450px;
+    border-radius: 25px;
+    margin-left: 205px;
+}
+
+.container3 p{
+    margin-top: 200px;
+    margin-left: 70px;
+}
+
+footer{
+    
+    background-color: rgb(230, 218, 218);
+    height: 70px;
+    margin-top: 15px;
+}
+
+.foot{
+    margin-left: 700px;
+    margin-top: 15px;
+}
+
+.foot p {
+    margin: 0 0 10px 0; 
+    font-size: 1.2em; 
+    color: rgb(15, 1, 1);
+  }
+  
+  .foot a {
+    margin: 0 10px; 
+    display: inline-block; 
+  }
+  
+  .foot img {
+    width: 25px; 
+    height: 30px;
+    object-fit: cover; 
+    border-radius: 8px;
+    /* transition: transform 0.3s ease;  */
+  }
+
+.btn{
+    color: #111010;
+}
+
+input[type="search"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 50px;
+}
+
+
+
+

@@ -1,0 +1,35 @@
+<html>
+<head>
+    <title>Add Recipe</title>
+</head>
+<body>
+    
+    <br>
+    <h3>Add a New Recipe here</h3>
+    
+        <form method="post" action="addRecipe.php" enctype="multipart/form-data">
+            <label>Chef Name:</label>
+            <input type="text" name="chefname" /><br><br>
+            <!-- <label>Category:&nbsp;&nbsp;</label> -->
+            <!-- <select class=""  name="category" id="dropdown">
+                <option value="">Select Category</option>
+                <option value="group">Group Recipe</option>
+                <option value="individual">Individual Recipe</option>
+                
+            </select> <br> <br> -->
+            <input type="file"  name="image_path"  >
+            <br><br>
+            <label for="Recipe image">Upload image</label>
+            <label>Recipe Name:&nbsp;&nbsp;&nbsp;&nbsp;</label>
+            <input type="text" name="RecipeName" /> <br><br>
+            <label>Ingredients:&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="Ingredients" id="Ingredients" placeholder="Ingredients" rows="5" cols="100"> </textarea><br><br>
+            <label>Directions:&nbsp;&nbsp;&nbsp;</label>
+            <textarea name="Direction" id="Direction" rows="10" cols="100"> </textarea><br><br>
+            &nbsp;&nbsp;&nbsp;&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="submit" name="submit" value="Submit" />
+            &nbsp;&nbsp;&nbsp;&nbsp;
+            <input type="button" value="Reset" />
+        </form>
+</body>
+</html> 

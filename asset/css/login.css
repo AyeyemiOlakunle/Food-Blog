@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'poppins', sans-serif;
+    background-color: rgb(247, 242, 242);
+    background-image: url(../img/iresi.jpeg);
+    
+}
+
+
+.navigation{
+     background-color: rgb(230, 218, 218);
+    height: 40px;
+    /* width: 800px; */
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.navigation button{
+    background-color: #141414;
+    width: 60px;
+    height: 20px;
+    margin-top: 9px;
+    outline: none;
+    border-radius: 5px;
+    
+}
+
+.navigation button a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    margin-top: 9px;
+    cursor: pointer;
+    
+}
+
+.menu{
+    margin-left: 750px;
+}
+
+
+form {
+    display: flex;
+    flex-direction: column;
+    height: 600px;
+    border: 2px solid ;
+    border-radius: 20px;
+    margin-top: 49px;
+    width: 480px;
+    margin-left: 540px;
+    background-image: url(../img/riiiii.jpg);
+    /* visibility: hidden; */
+    
+    
+
+    /* height: 80px; */
+}
+
+
+
+
+
+
+
+input[type="email"],
+input[type="password"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+    margin-left: 55px;
+    margin-top: 80px;
+    width: 350px;
+    
+}
+
+input[type="search"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 11px;
+    border: 1px solid #ccc;
+    outline: none;
+    height: 30px;
+    margin-top: 3px;
+    margin-right: 50px;
+}
+
+button{
+    background-color: rgb(156, 13, 13);
+    width: 100px;
+    height: 30px;
+    border-radius: 8px;
+    margin-left: 180px;
+    margin-top: 20px;
+    color: white;
+    font-weight: bold;
+}
+
+.register{
+   
+    font-size: bold;
+    background-color: black;
+    height: 30px;
+    border-radius: 5px;
+    margin-top: 10px;
+
+
+}
+
+.register p{
+    color: white;
+    margin-left: 79px;
+    
+}
+
+.register p a{
+    color: aqua;
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(0, 255, 255);
+    margin-left: 50px;
+}
+
